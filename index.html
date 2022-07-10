@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>piedra papel tijera</title>
+    <script
+      src="https://kit.fontawesome.com/df32d0c835.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/css.css">
+  </head>
+  <body>
+    <header>
+      <h1>PIEDRA PAPEL TIJERA</h1>
+    </header>
+    <div class="score-board">
+      <div id="user-label" class="badge">jugador</div>
+      <div id="compu-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+      <p>Papel a ropa a piedra. Tú ganas!</p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="r">
+      
+       <img src="assets/diamon.svg" alt="icon-rock" class="icon">
+      </div>
+      <div class="choice" id="p">
+          <img src="assets/paper.svg" alt="icon-hands" class="icon">
+        
+      </div>
+      <div class="choice" id="s">
+        <img src="assets/sissors.svg" alt="icon-sissors" class="icon">
+      </div>
+    </div>
+    <p id="mensaje-action">Haga su movimiento</p>
+    <script src="script.js"></script>
+  </body>
+</html>
